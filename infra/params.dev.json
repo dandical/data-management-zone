@@ -3,19 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "northeurope"
+            "value": "australiaeast"
         },
         "environment": {
             "value": "dev"
         },
         "prefix": {
-            "value": "dmz"
+            "value": "auddmz"
         },
         "tags": {
             "value": {}
         },
         "purviewRootCollectionAdminObjectIds": {
-            "value": []
+            "value": ["15a587b9-3fb1-4fc6-a0e2-8a6086d07c12"]
         },
         "vnetAddressPrefix": {
             "value": "10.0.0.0/16"
