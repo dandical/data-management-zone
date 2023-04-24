@@ -13,10 +13,12 @@ on:
       - "infra/**"
       - "code/**"
       - ".github/workflows/dataManagementZoneDeployment.yml"
+  workflow_dispatch:
+
 
 env:
-  AZURE_SUBSCRIPTION_ID: "f8e3f06b-0253-4c8d-8edb-d8f694e5ad9a" # Update to '{dataHubSubscriptionId}'
-  AZURE_LOCATION: "australiaeast"                                 # Update to '{regionName}'
+  AZURE_SUBSCRIPTION_ID: "f8e3f06b-0253-4c8d-8edb-d8f694e5ad9a"
+  AZURE_LOCATION: "australiaeast"                                
 
 jobs:
   validation:
