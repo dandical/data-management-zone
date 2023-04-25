@@ -20,6 +20,7 @@ env:
   AZURE_SUBSCRIPTION_ID: "f8e3f06b-0253-4c8d-8edb-d8f694e5ad9a"
   AZURE_LOCATION: "australiaeast"                                
 
+
 jobs:
   validation:
     name: "Validation of IaC templates"
